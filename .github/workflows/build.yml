@@ -26,7 +26,7 @@ jobs:
         run: |
           npm init -y
           npm install @capacitor/core @capacitor/cli @capacitor/android
-          npx cap init "VPN App" "com.vpn.app" --web-dir .
+          npx cap init "VPN App" "com.vpn.app" --web-dir www
           npx cap add android
 
       - name: Sync files
