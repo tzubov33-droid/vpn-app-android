@@ -1,0 +1,6 @@
+{
+  "appId": "com.vpn.app",
+  "appName": "VPN App",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
